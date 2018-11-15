@@ -23,7 +23,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.space-right {
+    margin-right: 10px;
+}
 .icon-mobile:before {
     content: "\e000";
 }
