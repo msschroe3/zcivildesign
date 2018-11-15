@@ -88,7 +88,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-7">
-							<form id="contact-form" name="contact-form" data-netlify="true">
+							<form id="contact-form" name="zcd-contact-form" method="POST" netlify>	
 									<div class="row">
 										<div class="col-md-6">
 											<div class="md-form mb-0">
@@ -113,19 +113,14 @@
 										</div>
 										<div class="row">
 												<div class="col-md-12">
-	
 														<div class="md-form">
 																<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
 																<label for="message"></label>
 														</div>
-	
 												</div>
 										</div>								
 		
-										<div class="text-center text-md-left">
-												<a class="btn btn-primary pull-left">Send</a>
-										</div>
-										<div class="status"></div>
+										<input type="submit" class="btn btn-primary pull-left" value="Submit">
 								</form>
 						</div>
 						<!--Grid column-->
